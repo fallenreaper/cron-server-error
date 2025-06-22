@@ -18,7 +18,7 @@
     "preview": "next build && next start",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "cron": "npx tsx --tsconfig ./tsconfig.json src/server/cron-server.ts"
+    "cron": "tsx --tsconfig ./tsconfig.json src/server/cron-server.ts"
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.12.0",
